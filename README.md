@@ -18,7 +18,7 @@
     One last trick - if you are trying to use PSQL against an Azure database which has an "@" 
     in the user name (ex: postgresadmin@azuredb4postgres) drop the username from the dbname 
     and pass it explicitly 
-        **psql --username postgresadmin@azuredb4postgres --dbname="postgresql://:Password@localhost:5432/postgres"**
+        psql --username postgresadmin@azuredb4postgres --dbname="postgresql://:Password@localhost:5432/postgres"
 
 ### Syntax
     For the dbname fqdn = fully qualified domain name (location of the server)
