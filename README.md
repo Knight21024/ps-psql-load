@@ -1,6 +1,6 @@
 # ps-psql-load
 
-## PowerShell PostgreSQL Load script
+## PowerShell PostgreSQL Load Script
 
     This is a simple PowerShell script that generates load on a PostgresSQL database. 
     It was tested against verion 9.5 of enterprisedb.com's PostgreSQL running locally.
