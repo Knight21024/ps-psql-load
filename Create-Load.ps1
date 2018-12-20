@@ -1,5 +1,5 @@
 # Create-Load.ps1 - create load on the postgres database
-# Author: Ken Knight
+# Author: Ken Knight, Cloud Architect, Valorem Reply
 <#
     This is a simple PowerShell script that generates load on a PostgresSQL database. 
     It was tested against verion 9.5 of enterprisedb.com's PostgreSQL running locally.
@@ -23,7 +23,6 @@ How it works
 Syntax
     For the dbname fqdn = fully qualified domain name (location of the server)
     --dbname "postgresql://username:password@fqdn:port/database"
-
 #>
 
 # Note the vales here are an example
